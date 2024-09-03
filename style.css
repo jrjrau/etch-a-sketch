@@ -9,6 +9,7 @@ h1 {
     text-align: center;
     margin-top: 8px;
     margin-bottom: 0px;
+    background-color: orange;
 }
 
 p {
@@ -21,6 +22,8 @@ p {
     flex-direction: column;
     width:800px;
     align-items: center;
+    background-color: blueviolet;
+    padding-bottom: 150px;
 }
 #menu {
     box-sizing: border-box;
@@ -33,8 +36,9 @@ p {
     flex-wrap: wrap;
     width: 500px;
     height: 500px;
-    border: 1px solid red;
+    border: 4px solid cornflowerblue;
     box-sizing: border-box;
+    background-color: white;
 }
 #sketchpad div {
     flex-grow: 1;
