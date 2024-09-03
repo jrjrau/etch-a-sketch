@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Etch-a-Sketch</h1>
+    <div id="container">
+        <div id="menu">
+            <button id="colorPrompt">Change colour</button>
+            <div id="colorMenu" style="display: none;">
+                <label for="colorPicker">Select colour:</label>
+                <input type="color" id="colorPicker" name="colorPicker"><br>
+                <button id="rainbow">Rainbow</button>
+                <button id="opacity">Opacity</button>
+            </div>
+            <button id="sizePrompt">Change Grid Size</button>
+            <button id="erase">Erase</button>
+        </div>
+
+        <p id="gridSize"></p>
+        <div id="sketchpad">
+        </div>
+    </div>
+</body>
+</html>

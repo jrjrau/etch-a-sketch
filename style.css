@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    width: 800px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+p {
+    margin: 8px;
+
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width:800px;
+    align-items: center;
+}
+#menu {
+    box-sizing: border-box;
+    display: flex;
+    margin: 20px;
+    gap: 10px;
+}
+#sketchpad {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+#sketchpad div {
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+#colorMenu {
+    position: absolute; /* or fixed */
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+#colorPicker.rainbow {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+/* #sketchpad div:hover {
+    background-color: black;
+} */
+
+button {
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: #e7e7e7;
+}
+
+.on {
+    background-color:darkslategrey !important;
+}
