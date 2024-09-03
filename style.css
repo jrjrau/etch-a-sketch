@@ -17,13 +17,18 @@ p {
 
 }
 
+
+#follow:hover{
+    background-color: rgb(53, 2, 102);
+}
+
 #container {
     display: flex;
     flex-direction: column;
     width:800px;
     align-items: center;
     background-color: blueviolet;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 #menu {
     box-sizing: border-box;
